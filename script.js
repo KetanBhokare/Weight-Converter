@@ -1,10 +1,10 @@
 function convert() {
   // Get the weight in kilograms
-  var weightInKilograms = document.getElementById("inputWeight").value;
+  const weightInKilograms = document.getElementById("inputWeight").value;
 
   // Convert the weight to pounds and ounces
-  var weightInPounds = weightInKilograms * 2.20462;
-  var weightInOunces = weightInPounds * 16;
+  const weightInPounds = weightInKilograms * 2.20462;
+  const weightInOunces = weightInPounds * 16;
 
   // Display the weight in pounds and ounces
   document.getElementById("output").innerHTML =
